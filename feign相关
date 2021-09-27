@@ -1,1 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T06:59:01.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.3.0" etag="LuRrzmxkHOOXxzhHga0M" type="github"><diagram id="1GWzYsDouF7wVC_aIf4D">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-27T09:49:51.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="du4D7KPWtIlZ1lQ36-v6" version="15.3.0" type="github">
+  <diagram id="1GWzYsDouF7wVC_aIf4D" name="Page-1">
+    <mxGraphModel dx="1113" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-1" target="dqrz6bRI1xNxh3ZdRgze-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-25" value="getObject" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-1" target="dqrz6bRI1xNxh3ZdRgze-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-1" value="FeignClientFactoryBean&lt;br&gt;（创建FeignClient动态代理对象入口）" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="497" width="279.75" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-2" target="dqrz6bRI1xNxh3ZdRgze-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-2" value="获取FeignContext&lt;br&gt;（FeignContext中有每个服务独立的Spring容器）" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="582" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-7" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-4" target="dqrz6bRI1xNxh3ZdRgze-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-4" value="从FeignContext获取Feign.Builder" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="673" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-14" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-6" target="dqrz6bRI1xNxh3ZdRgze-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-6" target="dqrz6bRI1xNxh3ZdRgze-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-6" value="配置Feign.Builder" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="768" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-8" value="feign()" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="555" y="497" width="193" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-9" value="Logger" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="595.5" y="530" width="113" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-10" value="Encoder" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="595.5" y="585" width="113" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-11" value="Decoder" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="595.5" y="639" width="113" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-12" value="Retryer" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="595.5" y="697" width="113" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-13" value="Contract" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="595.5" y="755" width="113" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-15" target="dqrz6bRI1xNxh3ZdRgze-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-15" value="配置Feign.Builder Client" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="856" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-17" target="dqrz6bRI1xNxh3ZdRgze-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-17" value="从FeignContext获取Targeter" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="941" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-19" target="dqrz6bRI1xNxh3ZdRgze-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-19" value="调动Targeter的target方法&lt;br&gt;（创建动态代理）" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="1020" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;dashed=1;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-21" target="dqrz6bRI1xNxh3ZdRgze-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-42" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-21" target="dqrz6bRI1xNxh3ZdRgze-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="1132" />
+              <mxPoint x="756" y="658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-21" value="调动Feign.Builder.target方法创建动态代理" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="1107" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-23" value="代理对象注入Spring容器" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="1203" width="278.75" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-26" target="dqrz6bRI1xNxh3ZdRgze-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-26" value="Feign.Builder build()" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#9673a6;fillColor=#e1d5e7;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="797" y="505" width="279" height="307" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-27" target="dqrz6bRI1xNxh3ZdRgze-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-27" value="创建方法处理工厂&lt;br&gt;SynchronousMethodHandler.Factory" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#314354;fillColor=#647687;verticalAlign=middle;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="827" y="540" width="221" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-28" target="dqrz6bRI1xNxh3ZdRgze-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-28" value="创建Feign接口解析器&lt;br&gt;ParseHandlerByName" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#314354;fillColor=#647687;verticalAlign=middle;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="827" y="615" width="221" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-30" value="创建Feign组件&lt;br&gt;ReflectiveFeign" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#314354;fillColor=#647687;verticalAlign=middle;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="827" y="692" width="221" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-33" value="ReflectiveFeign.newInstance()" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#23445d;fillColor=#bac8d3;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="797" y="892" width="279" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-37" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-35" target="dqrz6bRI1xNxh3ZdRgze-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-35" value="使用ParseHandlerByName解析接口，得到名称与方法映射" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="827" y="934" width="221" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-36" target="dqrz6bRI1xNxh3ZdRgze-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-36" value="转换成Map&amp;lt;String, MethodHandler&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1012" width="221" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-41" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1F1F1F;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="dqrz6bRI1xNxh3ZdRgze-38" target="dqrz6bRI1xNxh3ZdRgze-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-38" value="InvocationHandlerFactory创建代理对象" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1082" width="221" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dqrz6bRI1xNxh3ZdRgze-40" value="Proxy.newProxyInstance创建接口代理" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="826" y="1147" width="221" height="44" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

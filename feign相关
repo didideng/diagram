@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T13:09:51.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Z0gpers7C_PMzyK7FbVU" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T13:12:03.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="O84QmINfA0_C6NTTbsOs" version="15.3.0" type="github">
   <diagram id="1GWzYsDouF7wVC_aIf4D" name="Page-1">
     <mxGraphModel dx="1773" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
         <mxCell id="5JVV4J-5XYfJPzYOrVwG-19" value="重写invoke方法" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-375" y="829" width="278.75" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="5JVV4J-5XYfJPzYOrVwG-21" value="创建FeignDecorator装饰器" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;" vertex="1" parent="1">
+        <mxCell id="5JVV4J-5XYfJPzYOrVwG-21" value="针对method创建对应FeignDecorator" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-375" y="914" width="278.75" height="49" as="geometry" />
         </mxCell>
       </root>

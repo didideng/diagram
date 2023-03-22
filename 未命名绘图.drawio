@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T07:18:22.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xyJQyPchKrJidQDAucTB" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T07:36:03.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="o_03efE1hO5Ifete_i5n" version="21.0.6" type="github">
   <diagram name="第 1 页" id="R_i8Nc50N6PiyxXoFt6P">
-    <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="broEEy80nuSIyJJUEIry-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" width="1120" height="520" as="geometry" />
+          <mxGeometry x="-60" y="-80" width="1130" height="600" as="geometry" />
         </mxCell>
         <mxCell id="broEEy80nuSIyJJUEIry-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="420" width="650" height="80" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="10" y="190" width="70" height="200" as="geometry" />
         </mxCell>
         <mxCell id="broEEy80nuSIyJJUEIry-15" value="cas登录认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="210" width="510" height="30" as="geometry" />
+          <mxGeometry x="140" y="210" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="broEEy80nuSIyJJUEIry-16" value="OSS存储" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=vol" vertex="1" parent="1">
           <mxGeometry x="480" y="431" width="50" height="48" as="geometry" />
@@ -54,6 +54,24 @@
         </mxCell>
         <mxCell id="broEEy80nuSIyJJUEIry-25" value="调度平台saturnJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="247.5" width="85" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="broEEy80nuSIyJJUEIry-26" value="NAT网关（电信+联通）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="broEEy80nuSIyJJUEIry-27" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="broEEy80nuSIyJJUEIry-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="650" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="broEEy80nuSIyJJUEIry-32" value="前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="broEEy80nuSIyJJUEIry-33" value="PC端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="27.5" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="broEEy80nuSIyJJUEIry-34" value="微应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="27.5" width="110" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

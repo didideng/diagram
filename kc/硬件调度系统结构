@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T01:31:10.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gWEJ8g5xSfW0JgslYvxY" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T06:31:59.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="51WkND8mMnIjpb9b1Q2H" version="21.2.1" type="github">
   <diagram name="第 1 页" id="8ux2wBQhQYf_WOOp9Frm">
     <mxGraphModel dx="1562" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,68 @@
             <mxPoint x="640" y="510" as="sourcePoint" />
             <mxPoint x="690" y="460" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-27" target="c_dEMCV4vbQxG-qog0Ww-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-27" value="调度开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-28" target="c_dEMCV4vbQxG-qog0Ww-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-28" value="阻塞获取身份证/车牌信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-33" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-30" target="c_dEMCV4vbQxG-qog0Ww-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-30" target="c_dEMCV4vbQxG-qog0Ww-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1129" />
+              <mxPoint x="270" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c_dEMCV4vbQxG-qog0Ww-38">
+          <mxGeometry x="-0.0613" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-30" value="存在身份证/车牌" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1089" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-32" target="c_dEMCV4vbQxG-qog0Ww-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-32" value="运力资格验证" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-37" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-34" target="c_dEMCV4vbQxG-qog0Ww-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c_dEMCV4vbQxG-qog0Ww-34" target="c_dEMCV4vbQxG-qog0Ww-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1350" />
+              <mxPoint x="270" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-42" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c_dEMCV4vbQxG-qog0Ww-41">
+          <mxGeometry x="-0.4611" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-34" value="业务校验正常" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-36" value="起闸通过" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dEMCV4vbQxG-qog0Ww-43" value="调度开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
